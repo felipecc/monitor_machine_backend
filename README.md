@@ -18,6 +18,10 @@ Step 3:
         + config_db.yaml
 
 Step 4:
+    - Create database and table with script script_database.sql
+
+
+Step 5:
     - Create a job on crontab for execute the main.py
 
 
