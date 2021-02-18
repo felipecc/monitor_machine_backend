@@ -1,0 +1,6 @@
+database:
+  hostname: localhost
+  username: root
+  password: 123456789
+  port: 3306
+  database_name: cadence_test
