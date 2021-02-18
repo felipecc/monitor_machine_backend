@@ -11,11 +11,11 @@ Step 1:
 
 Step 2:
     - Inside dir project:
-        pip3 install -r requeriments.txt
+       + pip3 install -r requeriments.txt
     
 Step 3:
     - Configure the database in:
-        config_db.yaml
+        + config_db.yaml
 
 Step 4:
     - Create a job on crontab for execute the main.py
