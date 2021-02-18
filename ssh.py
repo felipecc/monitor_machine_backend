@@ -82,15 +82,3 @@ class SSH:
 
 if __name__ == '__main__':
     pass
-    # ssh = SSH(hostname='52.67.65.181', username='ubuntu')
-   
-
-    # usage_cpu_cmd = "top -b -n 2 -d1 | grep \"Cpu(s)\" | awk '{print $2}' | awk -F. '{print $1}'"
-    # usage_disk = 'df -hT'
-
-    # #output_cmd  = ssh.exec_cmd(usage_disk)
-    # #print(output_cmd)
-
-    # output_cmd  = ssh.mem_usage()
-
-    # print(output_cmd)
